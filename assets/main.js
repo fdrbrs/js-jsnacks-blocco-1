@@ -83,6 +83,7 @@ var input;
 for (var i = 0; i < 6; i++) {
     var input = Number(prompt("inserisci un numero"));
     if (input % 2 == 0){
+    } else {
         array.push(input)
     }
 }
