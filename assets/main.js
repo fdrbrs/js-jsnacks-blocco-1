@@ -5,6 +5,7 @@
 /* var parola1 = prompt("scrivi una parola");
 var parola2 = prompt("scrivi un'altra parola");
  */
+
 //Il software stampa prima la parola più corta, poi la parola più lunga.
 
 /* if (parola1.length == parola2.length) {
@@ -40,6 +41,7 @@ console.log(somma); */
  */
 
 //con ciclo for
+
 /* var somma = 0;
 for (var i = 0; i < 10; i++){
     var numeroUtente = Number(prompt("inserisci un numero"));
@@ -61,9 +63,9 @@ var utente = prompt("Inserisca qua il Suo nome:");
 //e comunicagli se può partecipare o no alla festa.
 
 if (invitati.includes(utente)) {
-    msg = "Sei uffcialmente invitato alla festa di Gatsby";
+    msg = "~ Sei uffcialmente invitato alla festa di Gatsby ~";
 } else {
-    msg = "Purtroppo il Suo nome non e' in lista";
+    msg = "~ Purtroppo il Suo nome non e' in lista ~";
 }
 
 document.getElementById("msg").innerHTML = msg;
