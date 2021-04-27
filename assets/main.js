@@ -33,3 +33,4 @@ var somma = n1 + n2 + n3 + n4 + n5 + n6 + n7 + n8 + n9 + n10;
 console.log(somma);
 
 document.getElementById("msg").innerHTML = somma;
+
