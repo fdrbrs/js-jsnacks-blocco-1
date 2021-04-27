@@ -54,19 +54,39 @@ document.getElementById("msg").innerHTML = somma; */
 
 //In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby
 
-var invitati = ["Henry James", "Andrew Le Vot", "Jay Gatsby", "Myrtle Wilson", "Nick Carraway", "Daisy Buchanan", "Jordan Baker", "Fabio"];
+/* var invitati = ["Henry James", "Andrew Le Vot", "Jay Gatsby", "Myrtle Wilson", "Nick Carraway", "Daisy Buchanan", "Jordan Baker", "Fabio"]; */
 
 //chiedi all’utente il suo nome
 
-var utente = prompt("Inserisca qua il Suo nome:");
+/* var utente = prompt("Inserisca qua il Suo nome:"); */
 
 //e comunicagli se può partecipare o no alla festa.
 
-if (invitati.includes(utente)) {
+/* if (invitati.includes(utente)) {
     msg = "~ Sei uffcialmente invitato alla festa di Gatsby ~";
 } else {
     msg = "~ Purtroppo il Suo nome non e' in lista ~";
 }
 
 document.getElementById("msg").innerHTML = msg;
-console.log(msg);
+console.log(msg); */
+
+//SNACK5
+
+//Crea un array vuoto.
+
+var array = [];
+var input;
+
+//Chiedi per 6 volte all’utente di inserire un numero,se è dispari inseriscilo nell’array
+
+for (var i = 0; i < 6; i++) {
+    var input = Number(prompt("inserisci un numero"));
+    if (input % 2 == 0){
+        array.push(input)
+    }
+}
+
+console.log(array);
+
+document.getElementById("msg").innerHTML = '~' + array + '~';
