@@ -1,7 +1,7 @@
 //L’utente inserisce due parole in successione, con due prompt.
 
-var parola1 = prompt("scrivi una parola")
-var parola2 = prompt("scrivi un'altra parola")
+var parola1 = prompt("scrivi una parola");
+var parola2 = prompt("scrivi un'altra parola");
 
 //Il software stampa prima la parola più corta, poi la parola più lunga.
 
