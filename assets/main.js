@@ -96,9 +96,22 @@ document.getElementById("msg").innerHTML = '~' + array + '~'; */
 
 //Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
 
-var userInput = Number(prompt("Inserisci un numero"));
+/* var userInput = Number(prompt("Inserisci un numero"));
 
 for (var i = 0; i <= userInput; i++) {
     var cubo = i**3;
     console.log(cubo);
-}
+} */
+
+//SNACK 8
+
+//Chiedi un numero di 4 cifre all’utente e calcola la somma di tutte le cifre che compongono il numero.
+
+var userInput = prompt("Scrivi un numero di quattro cifire");
+
+var n2 = Number(userInput[1]);
+var n1 = Number(userInput[0]);
+var n3 = Number(userInput[2]);
+var n4 = Number(userInput[3]);
+
+console.log(n1+n2+n3+n4);
