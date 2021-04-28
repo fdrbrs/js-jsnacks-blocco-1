@@ -109,9 +109,19 @@ for (var i = 0; i <= userInput; i++) {
 
 var userInput = prompt("Scrivi un numero di quattro cifire");
 
+/* var n1 = Number(userInput[0]);
 var n2 = Number(userInput[1]);
-var n1 = Number(userInput[0]);
 var n3 = Number(userInput[2]);
 var n4 = Number(userInput[3]);
 
 console.log(n1+n2+n3+n4);
+ */
+// con ciclo for
+
+var somma = 0;
+
+for (var i = 0; i < userInput.length; i++) {
+    var somma = somma + Number(userInput[i]);
+}
+
+console.log(somma);
