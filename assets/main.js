@@ -75,7 +75,7 @@ console.log(msg); */
 
 //Crea un array vuoto.
 
-var array = [];
+/* var array = [];
 var input;
 
 //Chiedi per 6 volte all’utente di inserire un numero,se è dispari inseriscilo nell’array
@@ -90,4 +90,15 @@ for (var i = 0; i < 6; i++) {
 
 console.log(array);
 
-document.getElementById("msg").innerHTML = '~' + array + '~';
+document.getElementById("msg").innerHTML = '~' + array + '~'; */
+
+//SNACK 6
+
+//Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
+
+var userInput = Number(prompt("Inserisci un numero"));
+
+for (var i = 0; i <= userInput; i++) {
+    var cubo = i**3;
+    console.log(cubo);
+}
