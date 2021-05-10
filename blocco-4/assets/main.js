@@ -33,14 +33,17 @@ triangolo = {
     altezza: 4
 }
 
+console.log('base = ' + triangolo.base);
+console.log('altezza = ' + triangolo.altezza);
+
 var area = (triangolo.base * triangolo.altezza) / 2;
 
-console.log(area);
+console.log('area = ' + area);
 
 var ipotenusa = Math.sqrt(Math.pow(triangolo.base,2) + Math.pow(triangolo.altezza,2));
 
-console.log(ipotenusa);
+console.log('ipotenusa = ' + ipotenusa);
 
 var perimetro = triangolo.altezza + triangolo.base + ipotenusa;
 
-console.log(perimetro);
+console.log('perimetro = ' + perimetro);
