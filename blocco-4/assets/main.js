@@ -37,10 +37,10 @@ var area = (triangolo.base * triangolo.altezza) / 2;
 
 console.log(area);
 
-var catetoMaggiore = Math.sqrt(Math.pow(triangolo.base,2) - Math.pow(triangolo.altezza,2));
+var ipotenusa = Math.sqrt(Math.pow(triangolo.base,2) + Math.pow(triangolo.altezza,2));
 
-console.log(catetoMaggiore);
+console.log(ipotenusa);
 
-var perimetro = triangolo.altezza + triangolo.base + catetoMaggiore;
+var perimetro = triangolo.altezza + triangolo.base + ipotenusa;
 
 console.log(perimetro);
