@@ -107,7 +107,7 @@ for (var i = 0; i <= userInput; i++) {
 
 //Chiedi un numero di 4 cifre all’utente e calcola la somma di tutte le cifre che compongono il numero.
 
-var userInput = prompt("Scrivi un numero di quattro cifire");
+//var userInput = prompt("Scrivi un numero di quattro cifire");
 
 /* var n1 = Number(userInput[0]);
 var n2 = Number(userInput[1]);
@@ -118,10 +118,20 @@ console.log(n1+n2+n3+n4);
  */
 // con ciclo for
 
-var somma = 0;
+/* var somma = 0;
 
 for (var i = 0; i < userInput.length; i++) {
     var somma = somma + Number(userInput[i]);
 }
 
-console.log(somma);
+console.log(somma); */
+
+//SNACK 7 
+
+//stampa le potenze di due fino a mille
+
+var counter = 0;
+while (Math.pow(2,counter) < 1000){
+    console.log(Math.pow(2, counter));
+    counter++;
+}
